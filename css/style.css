@@ -147,20 +147,25 @@ nav button {
 .work-block {
   display: flex;
   align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .work-block .box {
   box-shadow: 0px 22px 18px 0px #0000000d;
   padding: 30px 30px;
-  height: 250px;
+  max-width: 320px;
+  height: 280px;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
   gap: 10px;
   align-items: center;
+  justify-content: center;
 }
 .work-block .box h1 {
   color: #fdfdfd;
+  text-align: center;
 }
 .work-block .box img {
   width: 50px;
